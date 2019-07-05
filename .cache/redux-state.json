@@ -1,0 +1,1599 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "187fd972f7c9a1513d66884f172474d7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4de8db0180854e6e0856d1475f11c78c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "70b7722091d27e7f6f9fbcdf9f5223d2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1b30f3a99e8cc9d1d0397becdcf7b6ef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2db779a9e011dbc4c2c4e539f33abf14",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8b72dfcddd32678dbd383a738a4a93f8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ea1feb1fa4791069bbd5933e9c1e39d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cb13db241bbb772e72ca812a0608d407",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.38",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.38",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7f8f6e76025ae1f3c18a7a802bf843ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "precision": 8
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa89f841ac821bf7584620ec21dcca51",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.42",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.66",
+            "pluginOptions": {
+              "plugins": [],
+              "linkImagesToOriginal": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.42",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "83490b40f61d5cfb319bcc64c2f2ae88",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.66",
+      "pluginOptions": {
+        "plugins": [],
+        "linkImagesToOriginal": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.66",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.47"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "66f046762923f7ca8a0d2c746ff90670",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db26ea094bf75fec7c1eb681bb78bace",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.26",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f123ded543800fd78c103c6e5d24f921",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.47",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.47",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e9be8c5680c4b5d64125cfea7786f9b6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "5c0769626b53742236e9ff35eba9b087",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.270"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.47"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.66"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.38"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.42"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.26"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-jest",
+            "version": "^23.0.1"
+          },
+          {
+            "name": "babel-polyfill",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.3.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "enzyme-to-json",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "identity-obj-proxy",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "jest",
+            "version": "^23.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.13.5"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-router-dom",
+            "version": "^4.3.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ca7b8ad148ca1fea628458392c99aacc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "author": "You!",
+        "title": "Gatsby Default (Blog) Starter"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-06-10T23:51:35.486Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2f7e755f9653ab768ddeb7eb1059f4b5",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3fd2d24e1fd8851172d8c5c08a3edd6c",
+        "type": "Directory",
+        "description": "Directory \"themes/identity/content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-06-07T02:00:54.000Z",
+      "accessTime": "2018-06-10T23:52:02.000Z",
+      "changeTime": "2018-06-07T02:00:54.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638583,
+      "blocks": 0,
+      "atimeMs": 1528674722000,
+      "mtimeMs": 1528336854000,
+      "ctimeMs": 1528336854000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:52:02.000Z",
+      "mtime": "2018-06-07T02:00:54.000Z",
+      "ctime": "2018-06-07T02:00:54.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "83466fd8e54ad4c576a9f3496730b8c6",
+        "type": "Directory",
+        "description": "Directory \"themes/identity/content/01_first\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first",
+      "relativePath": "01_first",
+      "extension": "",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-06-07T02:00:54.000Z",
+      "accessTime": "2018-06-10T23:52:02.000Z",
+      "changeTime": "2018-06-07T02:00:54.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content",
+      "base": "01_first",
+      "ext": "",
+      "name": "01_first",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638584,
+      "blocks": 0,
+      "atimeMs": 1528674722000,
+      "mtimeMs": 1528336854000,
+      "ctimeMs": 1528336854000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:52:02.000Z",
+      "mtime": "2018-06-07T02:00:54.000Z",
+      "ctime": "2018-06-07T02:00:54.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file",
+      "children": [
+        "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "75bbfb159e9505c4e3dac6f409b9f7d1",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"themes/identity/content/01_first/first.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md",
+      "relativePath": "01_first/first.md",
+      "extension": "md",
+      "size": 227,
+      "prettySize": "227 B",
+      "modifiedTime": "2018-06-07T02:00:54.000Z",
+      "accessTime": "2018-06-10T23:25:03.000Z",
+      "changeTime": "2018-06-07T02:00:54.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first",
+      "base": "first.md",
+      "ext": ".md",
+      "name": "first",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638585,
+      "blocks": 8,
+      "atimeMs": 1528673103000,
+      "mtimeMs": 1528336854000,
+      "ctimeMs": 1528336854000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:25:03.000Z",
+      "mtime": "2018-06-07T02:00:54.000Z",
+      "ctime": "2018-06-07T02:00:54.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg absPath of file",
+      "children": [
+        "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3ce9acc2128c58679a350d8053de9975",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"themes/identity/content/01_first/full_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg",
+      "relativePath": "01_first/full_01.jpg",
+      "extension": "jpg",
+      "size": 48762,
+      "prettySize": "48.8 kB",
+      "modifiedTime": "2018-06-07T02:00:54.000Z",
+      "accessTime": "2018-06-10T23:25:03.000Z",
+      "changeTime": "2018-06-07T02:00:54.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first",
+      "base": "full_01.jpg",
+      "ext": ".jpg",
+      "name": "full_01",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638586,
+      "blocks": 96,
+      "atimeMs": 1528673103000,
+      "mtimeMs": 1528336854000,
+      "ctimeMs": 1528336854000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:25:03.000Z",
+      "mtime": "2018-06-07T02:00:54.000Z",
+      "ctime": "2018-06-07T02:00:54.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg absPath of file",
+      "children": [
+        "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "070adf6ec509d4b4d8f6a641d3170d86",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"themes/identity/content/01_first/thumb_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg",
+      "relativePath": "01_first/thumb_01.jpg",
+      "extension": "jpg",
+      "size": 8450,
+      "prettySize": "8.45 kB",
+      "modifiedTime": "2018-06-07T02:00:54.000Z",
+      "accessTime": "2018-06-10T23:25:03.000Z",
+      "changeTime": "2018-06-07T02:00:54.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first",
+      "base": "thumb_01.jpg",
+      "ext": ".jpg",
+      "name": "thumb_01",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638587,
+      "blocks": 24,
+      "atimeMs": 1528673103000,
+      "mtimeMs": 1528336854000,
+      "ctimeMs": 1528336854000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:25:03.000Z",
+      "mtime": "2018-06-07T02:00:54.000Z",
+      "ctime": "2018-06-07T02:00:54.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/full_01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3ce9acc2128c58679a350d8053de9975",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/thumb_01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "070adf6ec509d4b4d8f6a641d3170d86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Magna feugiat lorem\"\npath: \"/first-post\"\ndate: \"2000-03-21\"\nmodalImage: \"./full_01.jpg\"\nthumbnailImage: \"./thumb_01.jpg\"\n---\n\nNunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "587fb4f833c80f73144756152d9481e5",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Magna feugiat lorem",
+        "path": "/first-post",
+        "date": "2000-03-21",
+        "modalImage": "./full_01.jpg",
+        "thumbnailImage": "./thumb_01.jpg",
+        "_PARENT": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file",
+        "parent": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nNunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.\n",
+      "fileAbsolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/content/01_first/first.md"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e63d1b883326bcb2ec66dcf3abf6e3dd",
+        "type": "Directory",
+        "description": "Directory \"themes/identity/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-06-07T02:00:54.000Z",
+      "accessTime": "2018-06-10T23:52:02.000Z",
+      "changeTime": "2018-06-07T02:00:54.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638603,
+      "blocks": 0,
+      "atimeMs": 1528674722000,
+      "mtimeMs": 1528336854000,
+      "ctimeMs": 1528336854000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:52:02.000Z",
+      "mtime": "2018-06-07T02:00:54.000Z",
+      "ctime": "2018-06-07T02:00:54.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages/index.js absPath of file": {
+      "id": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50de40c31f2008cbcf4c0a6ea9d5c6a6",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"themes/identity/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1154,
+      "prettySize": "1.15 kB",
+      "modifiedTime": "2018-06-08T02:15:57.000Z",
+      "accessTime": "2018-06-10T23:25:35.000Z",
+      "changeTime": "2018-06-08T02:15:57.000Z",
+      "birthTime": "2018-06-07T02:00:54.000Z",
+      "root": "/",
+      "dir": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18638604,
+      "blocks": 8,
+      "atimeMs": 1528673135000,
+      "mtimeMs": 1528424157000,
+      "ctimeMs": 1528424157000,
+      "birthtimeMs": 1528336854000,
+      "atime": "2018-06-10T23:25:35.000Z",
+      "mtime": "2018-06-08T02:15:57.000Z",
+      "ctime": "2018-06-08T02:15:57.000Z",
+      "birthtime": "2018-06-07T02:00:54.000Z"
+    },
+    "SitePage /": {
+      "layout": null,
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages/index.js",
+      "componentChunkName": "component---themes-identity-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fabiothiroki/Repositories/fabiothiroki.github.io/themes/identity/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f44a509f6e25eb8120d015a2d6598f57",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "b7e0be50a5575928e7be8320794144a2"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}
